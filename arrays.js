@@ -34,8 +34,8 @@ function destructivelyRemoveElementFromBeginningOfArray(arr) {
 
 // Define a function for removing an element from the front of an array
 function removeElementFromBeginningOfArray(arr) {
-  arr.shift()
-  return arr
+  arr2 = arr;
+  return arr2.shift();
 }
 
 // Define a function for destructively removing an element from the end of an array
