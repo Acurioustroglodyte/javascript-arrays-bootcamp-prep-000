@@ -48,6 +48,6 @@ function destructivelyRemoveElementFromEndOfArray(arr) {
 // Define a function for removing an element from the end of an array
 function removeElementFromEndOfArray(arr) {
   newArr = [...arr];
-  newArr.slice(newArr.length - 1)
+  newArr.pop()
   return newArr;
 }
