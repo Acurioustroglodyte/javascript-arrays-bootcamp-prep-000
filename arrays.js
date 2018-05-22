@@ -41,7 +41,8 @@ function removeElementFromBeginningOfArray(arr) {
 
 // Define a function for destructively removing an element from the end of an array
 function destructivelyRemoveElementFromEndOfArray(arr) {
-  return arr.pop()
+  arr.pop()
+  return arr
 }
 
 // Define a function for removing an element from the end of an array
