@@ -3,8 +3,9 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 // Define two functions for adding elements to front of an array
 function addElementToBeginningOfArray(array, element) {
-    array.unshift(element);
-   return array;
+    var arrClone = array;
+    arrClone.unshift(element);
+    return arrClone;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
